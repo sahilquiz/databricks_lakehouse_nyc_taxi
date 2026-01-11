@@ -1,0 +1,7 @@
+Source format: Parquet
+Source location: static file
+Load type: full load (for now)
+Target: Delta table
+Table name: bronze_nyc_taxi
+Mutability: immutable raw data
+Re-run behavior: overwrite (acceptable for learning)
